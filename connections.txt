@@ -1,0 +1,7 @@
+Sensor connection
+Connect The Aout pin of the WCS1700 sensor to A0 pin of Arduino.
+Please note that Arduino Nano does not support the Library 'WinsonLib.h>'.
+Connect the Vcc and Gnd pins of WCS1700 to 5V amd Gnd on the Arduino respectively.
+
+For Serial communication between Arduino and Nodemcu
+Connect D0 on Nodemcu to Pin 6 on Arduino and D1 on Nodemcu to Pin 7 on Arduino.
