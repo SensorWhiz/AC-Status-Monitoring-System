@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <SoftwareSerial.h>
 
-const char* ssid = "Bhruhathi:)";
-const char* password = "05021312";
+const char* ssid = "name of your network";
+const char* password = "password";
 
 SoftwareSerial arduinoSerial(D1, D0); // NodeMCU pins D1 (RX) and D0 (TX)
 
